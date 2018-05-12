@@ -1,0 +1,5 @@
+##store data
+dbpath=D:\Back-end\students\linh\DB\data
+
+##all output go here
+logpath=D:\Back-end\students\linh\DB\log\mongo.log

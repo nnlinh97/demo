@@ -1,0 +1,7 @@
+﻿BTVN
+CN, 15/04/2018
+ - post: tạo mới 1 user
+ - put: update
+ - get: lấy về, phân trang
+ - delete: xóa user
+

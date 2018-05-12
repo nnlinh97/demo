@@ -1,0 +1,21 @@
+sách: thêm ngày nhập, giá nhập vào, giá bán ra, mô tả
+
+user list: STT, tên tài khoản, Họ, tên, vai trò, ngày tạo, người tạo, tình trạng, chỉnh sửa
+
+{
+		'id': 'kt5',
+		'url': 'kt5.jpg',
+		'name': 'Những bài học đầu tư từ Warren Buffett',
+		'price': 120000,
+		'star': 4,
+		'status': '',
+		'sale': 30,
+		'nxb': 'NXB Trẻ',
+		'category': 'Kinh Tế',
+		'view': 0,
+		'sell-amount': 0,
+		'stock': 5,
+		'origin': 'Mỹ',
+		'description': 'Lorem Ipsum',
+		'html': 'kt5.html',
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- -------------- Meta and Title -------------- -->
+    <meta charset="utf-8">
+    <title>BOOKSTORE.COM</title>
+    <meta name="keywords" content="HTML5, Bootstrap 3, Admin Template, UI Theme" />
+    <meta name="description" content="Alliance - A Responsive HTML5 Admin UI Framework">
+    <meta name="author" content="ThemeREX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- -------------- Fonts -------------- -->
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- -------------- Icomoon -------------- -->
+    <link rel="stylesheet" type="text/css" href="../../assets/fonts/icomoon/icomoon.css">
+
+    <!-- -------------- FullCalendar -------------- -->
+    <link rel="stylesheet" type="text/css" href="../../assets/js/plugins/fullcalendar/fullcalendar.min.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/js/plugins/magnific/magnific-popup.css">
+
+    <!-- -------------- Plugins -------------- -->
+    <link rel="stylesheet" type="text/css" href="../../assets/js/plugins/c3charts/c3.min.css">
+
+    <!-- -------------- CSS - theme -------------- -->
+    <link rel="stylesheet" type="text/css" href="../../assets/skin/default_skin/css/theme.css">
+
+    <!-- -------------- CSS - allcp forms -------------- -->
+    <link rel="stylesheet" type="text/css" href="../../assets/allcp/forms/css/forms.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+    <!-- -------------- Favicon -------------- -->
+
+    <link rel="icon" type="image/x-icon" href="../../../../assets/img/B.png">
+
+
+</head>
+
+<body class="dashboard-page">
+
+
+    <!-- -------------- Body Wrap  -------------- -->
+    <div id="main">
+
+        <!-- -------------- Header  -------------- -->
+        <header class="navbar navbar-fixed-top bg-dark">
+            <div class="navbar-logo-wrapper">
+                <a class="navbar-logo-text" href="../../index.html">
+                    <b>BOOKSTORE.COM</b>
+                </a>
+                <span id="sidebar_left_toggle" class="ad ad-lines"></span>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown dropdown-fuse">
+                    <a href="javascript:;" class="dropdown-toggle fw600" data-toggle="dropdown">
+                        <span class="hidden-xs">
+                            <name>nnlinh97</name>
+                        </span>
+                    </a>
+                </li>
+                <a href="../../app/admin-login.html" class="btn btn-primary btn-sm btn-bordered" style="margin-top: 20px;">
+                    <span class="fa fa-power-off pr5"></span>
+                    Logout
+                </a>
+            </ul>
+        </header>
+        <!-- -------------- /Header  -------------- -->
+
+        <!-- -------------- Sidebar  -------------- -->
+        <aside id="sidebar_left" class="nano nano-light affix">
+
+            <!-- -------------- Sidebar Left Wrapper  -------------- -->
+            <div class="sidebar-left-content nano-content">
+                <!-- -------------- Sidebar Menu  -------------- -->
+                <ul style="padding-top: 15px;" class="nav sidebar-menu">
+                    <li>
+                        <a class="active" href="../../index.html">
+                            <span class="fa fa-dashboard"></span>
+                            <span class="sidebar-title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="accordion-toggle" href="javascript:;">
+                            <span class="fa fa-user"></span>
+                            <span class="sidebar-title">QUẢN LÝ NHÂN VIÊN</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="nav sub-nav">
+                            <li>
+                                <a href="./role-list.html">
+                                    <span class="glyphicon glyphicon-tags"></span> Role </a>
+                            </li>
+                            <li>
+                                <a href="./user-list.html">
+                                    <span class="glyphicon glyphicon-tags"></span> Nhân Viên </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="accordion-toggle" href="javascript:;">
+                            <span class="fa fa-book"></span>
+                            <span class="sidebar-title">QUẢN LÝ SÁCH</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="nav sub-nav">
+                            <li>
+                                <a href="../sach/loai-sach.html">
+                                    <span class="glyphicon glyphicon-tags"></span> Loại Sách </a>
+                            </li>
+                            <li>
+                                <a href="../sach/sach.html">
+                                    <span class="glyphicon glyphicon-tags"></span> Sách </a>
+                            </li>
+                            <li>
+                                <a href="../sach/nxb.html">
+                                    <span class="fa fa-money"></span> Nhà Xuất Bản </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <a class="active" href="../khach-hang/ds-khach-hang.html">
+                            <span class="fa fa-users"></span>
+                            <span class="sidebar-title">QUẢN LÝ KHÁCH HÀNG</span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a class="active" href="../don-hang/ds-don-hang.html">
+                            <span class="fa fa-shopping-cart"></span>
+                            <span class="sidebar-title">QUẢN LÝ ĐƠN HÀNG</span>
+                        </a>
+
+                    </li>
+
+                </ul>
+                <!-- -------------- /Sidebar Menu  -------------- -->
+            </div>
+            <!-- -------------- /Sidebar Left Wrapper  -------------- -->
+
+        </aside>
+        <!-- -------------- /Sidebar -------------- -->
+
+        <!-- -------------- Main Wrapper -------------- -->
+        <section id="content_wrapper">
+            <!-- -------------- Content -------------- -->
+            <section id="content" class="table-layout animated fadeIn">
+                <div class="row" style="padding-top: 20px;padding-left: 0px;">
+                    <div class="col-lg-12">
+                        <div class="form-horizontal">
+                            <section class="panel">
+                                <header id="role-title" class="panel-heading">
+
+                                </header>
+                                <div id="role-form" class="panel-body" style="padding-right:0px;">
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">Mã Role </label>
+                                        <div class="col-sm-9" style="width: 700px;">
+                                            <input id="txtMaRole" type="text" class="form-control" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">Tên Role </label>
+                                        <div class="col-sm-9" style="width: 700px;">
+                                            <input id="txtTenRole" type="text" class="form-control" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">Mô Tả</label>
+                                        <div class="col-sm-9" style="width: 700px;">
+                                            <textarea id="txtMoTa" rows="5" class="form-control" data-ng-value=""></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <footer class="panel-footer">
+                                    <div class="row">
+                                        <div class="col-sm-9 col-sm-offset-3">
+                                            <a href="./role-list.html" id="save-role" class="btn btn-primary">
+                                                <i style="cursor:pointer" class="fa fa-save"></i>
+                                                SAVE
+                                            </a>
+                                            <a href="./role-list.html" id="back-role" type="button" class="btn btn-default">
+                                                <i class="fa fa-arrow-circle-left"></i>
+                                                BACK
+                                            </a>
+                                        </div>
+                                    </div>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- -------------- /Content -------------- -->
+
+
+
+        </section>
+        <!-- -------------- /Main Wrapper -------------- -->
+
+
+    </div>
+    <!-- -------------- /Body Wrap  -------------- -->
+
+    <!-- -------------- Scripts -------------- -->
+
+    <!-- -------------- jQuery -------------- -->
+    <script src="../../assets/js/jquery/jquery-1.11.3.min.js"></script>
+    <script src="../../assets/js/jquery/jquery_ui/jquery-ui.min.js"></script>
+
+    <!-- -------------- HighCharts Plugin -------------- -->
+    <script src="../../assets/js/plugins/highcharts/highcharts.js"></script>
+    <script src="../../assets/js/plugins/c3charts/d3.min.js"></script>
+    <script src="../../assets/js/plugins/c3charts/c3.min.js"></script>
+
+    <!-- -------------- Simple Circles Plugin -------------- -->
+    <script src="../../assets/js/plugins/circles/circles.js"></script>
+
+    <!-- -------------- Maps JSs -------------- -->
+    <script src="../../assets/js/plugins/jvectormap/jquery.jvectormap.min.js"></script>
+    <script src="../../assets/js/plugins/jvectormap/assets/jquery-jvectormap-us-lcc-en.js"></script>
+
+    <!-- -------------- FullCalendar Plugin -------------- -->
+    <script src="../../assets/js/plugins/fullcalendar/lib/moment.min.js"></script>
+    <script src="../../assets/js/plugins/fullcalendar/fullcalendar.min.js"></script>
+
+    <!-- -------------- Date/Month - Pickers -------------- -->
+    <script src="../../assets/allcp/forms/js/jquery-ui-monthpicker.min.js"></script>
+    <script src="../../assets/allcp/forms/js/jquery-ui-datepicker.min.js"></script>
+
+    <!-- -------------- Magnific Popup Plugin -------------- -->
+    <script src="../../assets/js/plugins/magnific/jquery.magnific-popup.js"></script>
+
+    <!-- -------------- Theme Scripts -------------- -->
+    <script src="../../assets/js/utility/utility.js"></script>
+    <script src="../../assets/js/demo/demo.js"></script>
+    <script src="../../assets/js/main.js"></script>
+
+    <!-- -------------- Widget JS -------------- -->
+    <script src="../../assets/js/demo/widgets.js"></script>
+    <script src="../../assets/js/demo/widgets_sidebar.js"></script>
+    <script src="../../assets/js/pages/dashboard1.js"></script>
+    <!-- -------------- /Scripts -------------- -->
+    <script src="../../assets/js/nhan-vien/role.js"></script>
+
+</body>
+
+</html>
